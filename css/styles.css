@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+#AdultTkdImg
+{
+	width: 80%;
+	height: auto;
+}
+.top-logo
+{
+	width: 40%;
+}
+@media(max-width: 768px)
+{
+	.top-logo
+	{
+		width:100%;
+	}
+}
+.instructor-img{
+	width: 100%;
+	height: auto;
+}
+
+.scrolling-wrapper{
+	overflow-x: scroll;
+}
+.instructor-card
+{
+	width: 200px;
+	height: auto;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
